@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saadias Saloon - Discover luxury beauty services, expert bridal makeup, precision hair styling, and professional skincare. Experience premium pampering in Lahore.">
+    <meta name="keywords" content="Saadias Saloon, beauty salon, bridal makeup, hair styling, skincare, Lahore beauty parlor, manicure, nail art, party makeup, Lahore salon">
+    <meta name="author" content="Saadias Saloon">
+    
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:title" content="Saadias Saloon | Premium Beauty & Hair Salon">
+    <meta property="og:description" content="Discover luxury beauty services, expert bridal makeup, precision hair styling, and professional skincare at Saadias Saloon.">
+    <meta property="og:image" content="assets/images/hero_banner.png">
+    <meta property="og:url" content="https://saadiassaloon.com">
+    <meta property="og:type" content="website">
+
+    <title>Saadias Saloon | Premium Beauty & Hair Salon</title>
+
+    <!-- Google Fonts: Playfair Display (Serif) & Montserrat (Sans-serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- STICKY HEADER & NAVIGATION -->
+    <header class="main-header" id="mainHeader">
+        <div class="header-container">
+            <a href="#home" class="logo" id="logoLink">
+                <img src="assets/images/logo.jpg" alt="Saadias Saloon Logo" class="logo-img">
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="desktop-nav" id="desktopNav">
+                <ul>
+                    <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+                    <li><a href="#about" class="nav-link" id="nav-about">About Us</a></li>
+                    <li><a href="#services" class="nav-link" id="nav-services">Services</a></li>
+                    <li><a href="#products" class="nav-link" id="nav-products">Products</a></li>
+                    <li><a href="#contact" class="nav-link" id="nav-contact">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#book" class="btn btn-primary btn-nav" id="navBookBtn">Book Now</a>
+                <!-- Hamburger Menu for Mobile -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU DRAWER -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <button class="close-drawer-btn" id="closeDrawerBtn" aria-label="Close menu">&times;</button>
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-link" id="mob-home">Home</a></li>
+            <li><a href="#about" class="mobile-link" id="mob-about">About Us</a></li>
+            <li><a href="#services" class="mobile-link" id="mob-services">Services</a></li>
+            <li><a href="#products" class="mobile-link" id="mob-products">Products</a></li>
+            <li><a href="#contact" class="mobile-link" id="mob-contact">Contact Us</a></li>
+            <li><a href="#book" class="mobile-link btn btn-primary" id="mob-book">Book Appointment</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+            <p>Follow our social links</p>
+            <div class="social-icons">
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <!-- MAIN APP VIEW CONTAINER (SPA) -->
+    <main class="view-container">
+
+        <!-- 1. HOME VIEW -->
+        <section id="home" class="view-section active">
+            <!-- Hero Banner -->
+            <div class="hero-banner" style="background-image: linear-gradient(rgba(28, 26, 26, 0.45), rgba(28, 26, 26, 0.45)), url('assets/images/hero_banner.png');">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Premium Beauty & Hair Salon</span>
+                    <h1 class="hero-title">Experience the Art of Beauty</h1>
+                    <p class="hero-desc">Indulge in luxurious bridal makeovers, signature hair stylings, and rejuvenating skincare treatments tailored specifically for your unique elegance.</p>
+                    <div class="hero-ctas">
+                        <a href="#book" class="btn btn-primary btn-lg">Book Appointment <i class="fas fa-calendar-alt"></i></a>
+                        <a href="#services" class="btn btn-secondary btn-lg">Our Services</a>
+                    </div>
+                </div>
+                <div class="scroll-down-indicator">
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <!-- Welcome Intro -->
+            <div class="welcome-intro container">
+                <div class="grid-2">
+                    <div class="intro-visual">
+                        <div class="image-frame-gold animate-on-scroll">
+                            <img src="assets/images/salon_interior.png" alt="Saadias Saloon Interior lounge" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="intro-text-content">
+                        <span class="section-badge">Welcome to Saadias Saloon</span>
+                        <h2 class="section-title">Where Luxury Meets Elegance</h2>
+                        <p class="section-lead">Saadias Saloon is a premier female-only luxury beauty parlour dedicated to delivering unparalleled hair styling, bridal makeovers, and advanced skincare services in a highly professional, pristine, and feminine environment.</p>
+                        <p class="section-paragraph">Our team of expert stylists and makeup artists utilize world-class premium products to craft bespoke looks that amplify your natural features. Whether you are prepping for your wedding day, a special party, or just treating yourself to well-deserved pampering, we promise an exquisite experience from start to finish.</p>
+                        <div class="features-row">
+                            <div class="feature-item">
+                                <i class="fas fa-award"></i>
+                                <span>Expert Stylists</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-sparkles"></i>
+                                <span>Premium Products</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-pump-soap"></i>
+                                <span>Hygiene Focused</span>
+                            </div>
+                        </div>
+                        <a href="#about" class="btn btn-outline">Read Our Story</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Services -->
+            <div class="featured-services-section bg-cream">
+                <div class="container text-center">
+                    <span class="section-badge">Our Specialties</span>
+                    <h2 class="section-title">Signature Services</h2>
+                    <p class="section-subtitle">A curated selection of our clients' most loved beauty transformations.</p>
+                    
+                    <div class="grid-3 services-teaser">
+                        <!-- Hair Card -->
+                        <div class="teaser-card">
+                            <div class="card-img-container">
+                                <img src="assets/images/hair_styling.png" alt="Hair Styling & Blowout">
+                            </div>
+                            <div class="card-content">
+                                <h3>Hair Styling & Cuts</h3>
+                                <p>Precision cutting, voluminous blowouts, and advanced color treatments tailored to elevate your natural hair texture and face shape.</p>
+                                <a href="#services" class="card-link" onclick="window.appRouter.setServiceFilter('hair')">Explore Hair Services <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Makeup Card -->
+                        <div class="teaser-card">
+                            <div class="card-img-container">
+                                <img src="assets/images/bridal_makeup.png" alt="Bridal & Party Makeup">
+                            </div>
+                            <div class="card-content">
+                                <h3>Bridal & Party Makeovers</h3>
+                                <p>Exquisite bridal makeup, airbrush makeup, and radiant party looks designed to make you stand out and shine at every event.</p>
+                                <a href="#services" class="card-link" onclick="window.appRouter.setServiceFilter('makeup')">Explore Makeup Services <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Skincare Card -->
+                        <div class="teaser-card">
+                            <div class="card-img-container">
+                                <img src="assets/images/skincare_facial.png" alt="Skincare Facials & Therapies">
+                            </div>
+                            <div class="card-content">
+                                <h3>Facial & Skincare</h3>
+                                <p>Premium glow facials, skin tightening, chemical peels, and relaxing massages for a flawless, bright, and rejuvenated skin texture.</p>
+                                <a href="#services" class="card-link" onclick="window.appRouter.setServiceFilter('skincare')">Explore Skincare <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-all-cta">
+                        <a href="#services" class="btn btn-secondary">View Complete Service Menu</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Before/After Interactive Gallery -->
+            <div class="before-after-section container">
+                <div class="text-center">
+                    <span class="section-badge">Real Transformations</span>
+                    <h2 class="section-title">The Saadias Makeover Magic</h2>
+                    <p class="section-subtitle">Slide the bar to reveal the incredible transformation before and after our signature styling and makeup sessions.</p>
+                </div>
+
+                <div class="slider-wrapper">
+                    <div class="before-after-slider" id="baSlider">
+                        <div class="image-container before-image-container">
+                            <img src="assets/images/before_transform.png" alt="Model natural beauty before makeover" class="slider-image">
+                            <span class="slider-label before-label">Before</span>
+                        </div>
+                        <div class="image-container after-image-container" id="afterImgContainer">
+                            <img src="assets/images/after_transform.png" alt="Model after makeover transformation" class="slider-image">
+                            <span class="slider-label after-label">After</span>
+                        </div>
+                        <div class="slider-handle" id="sliderHandle">
+                            <div class="handle-line"></div>
+                            <div class="handle-button">
+                                <i class="fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div class="handle-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customer Reviews (Google Reviews Mock & Testimonials) -->
+            <div class="reviews-section bg-cream">
+                <div class="container">
+                    <div class="reviews-header text-center">
+                        <span class="section-badge">Client Reviews</span>
+                        <h2 class="section-title">What Our Lovely Clients Say</h2>
+                        
+                        <!-- Google Business Review Badge -->
+                        <div class="google-rating-badge">
+                            <div class="google-logo">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google logo" width="20" height="20">
+                                <span>Google Review Rating</span>
+                            </div>
+                            <div class="rating-stars">
+                                <span class="rating-num">4.9</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="review-count">(248+ reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-3 testimonials-container">
+                        <div class="review-card">
+                            <div class="review-meta">
+                                <div class="avatar-placeholder">A</div>
+                                <div class="review-author">
+                                    <h4>Ayesha Khan</h4>
+                                    <span>Bridal Makeup Client</span>
+                                </div>
+                                <div class="google-icon-card"><i class="fab fa-google"></i></div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"I booked my bridal makeover with Saadias Saloon and it was the best decision! The makeup was flawless, glowing, and stayed perfect all night. The staff was incredibly warm and made me feel so calm and beautiful. Highly recommend to every bride-to-be!"</p>
+                            <span class="review-date">1 week ago</span>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-meta">
+                                <div class="avatar-placeholder">M</div>
+                                <div class="review-author">
+                                    <h4>Marium Fatima</h4>
+                                    <span>Hair Styling & Highlights</span>
+                                </div>
+                                <div class="google-icon-card"><i class="fab fa-google"></i></div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"Got my hair cut and balayage highlights done here. Absolutely outstanding! They understood exactly what color would suit my skin tone and gave me a precision cut that completely changed my look. The salon has a gorgeous feminine ambiance."</p>
+                            <span class="review-date">3 weeks ago</span>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-meta">
+                                <div class="avatar-placeholder">S</div>
+                                <div class="review-author">
+                                    <h4>Sana Javed</h4>
+                                    <span>Hydrafacial Client</span>
+                                </div>
+                                <div class="google-icon-card"><i class="fab fa-google"></i></div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="review-text">"Their premium Hydrafacial works wonders! My skin felt super hydrated, clean, and radiant instantly. The skincare room is so peaceful and their therapists are extremely gentle and knowledgeable. Will definitely be a regular here."</p>
+                            <span class="review-date">1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- 2. ABOUT US VIEW -->
+        <section id="about" class="view-section">
+            <!-- About Hero -->
+            <div class="about-hero" style="background-image: linear-gradient(rgba(28, 26, 26, 0.5), rgba(28, 26, 26, 0.5)), url('assets/images/salon_interior.png');">
+                <div class="about-hero-content">
+                    <span class="section-badge badge-white">About Us</span>
+                    <h1>Our Story & Mission</h1>
+                    <p>Learn more about the vision, founders, and expert team of stylists that make Saadias Saloon a haven of beauty.</p>
+                </div>
+            </div>
+
+            <!-- Our Narrative & Vision -->
+            <div class="about-story container">
+                <div class="grid-2">
+                    <div class="story-text">
+                        <span class="section-badge">Saadias Legacy</span>
+                        <h2 class="section-title">Empowering Women Through Beauty</h2>
+                        <p class="section-lead">Founded in 2018, Saadias Saloon began with a simple but profound mission: to create a sanctuary where every woman feels pampered, valued, and walks out looking like the best version of herself.</p>
+                        <p class="section-paragraph">We understand that beauty is more than skin deep; it's a reflection of confidence, elegance, and self-care. That is why we designed our salon environment to be safe, feminine, warm, and highly professional. We have gathered a staff of exceptionally skilled makeup artists, nail experts, hair therapists, and skin practitioners who share a unified passion for creativity and luxury service standards.</p>
+                        
+                        <div class="mission-vision-boxes">
+                            <div class="mv-box">
+                                <h3><i class="fas fa-bullseye text-gold"></i> Our Mission</h3>
+                                <p>To deliver high-end, customized beauty treatments utilizing global premium products, ensuring a sanitary, comfortable, and luxurious experience for every customer.</p>
+                            </div>
+                            <div class="mv-box">
+                                <h3><i class="fas fa-eye text-gold"></i> Our Vision</h3>
+                                <p>To set a benchmark for beauty, styling, and client satisfaction, growing as the most trusted and elegant beauty brand that nurtures female confidence and styling excellence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="story-gallery">
+                        <div class="story-image-collage">
+                            <div class="collage-item col-large">
+                                <img src="assets/images/salon_interior.png" alt="Styling workstations">
+                            </div>
+                            <div class="collage-item col-small-1">
+                                <img src="assets/images/skincare_facial.png" alt="Facial treatment close up">
+                            </div>
+                            <div class="collage-item col-small-2">
+                                <img src="assets/images/manicures_nails.png" alt="Manicure station details">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why Choose Us Grid -->
+            <div class="why-choose-us bg-cream">
+                <div class="container text-center">
+                    <span class="section-badge">Why Choose Saadias?</span>
+                    <h2 class="section-title">The Luxury Salon Standard</h2>
+                    <p class="section-subtitle">We prioritize your health, styling aesthetics, and peace of mind at every step of your salon experience.</p>
+                    
+                    <div class="grid-3 why-grid">
+                        <div class="why-card">
+                            <i class="fas fa-hand-sparkles"></i>
+                            <h3>100% Certified Hygiene</h3>
+                            <p>All styling tools, hairbrushes, makeup sponges, and pedicure tubs undergo medical-grade sterilization before and after each service.</p>
+                        </div>
+                        <div class="why-card">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Premium & Organic Products</h3>
+                            <p>We use dermatologically tested, cruelty-free, and high-end global beauty brands (like L'Oréal Professional, MAC, Huda Beauty, Dermalogica).</p>
+                        </div>
+                        <div class="why-card">
+                            <i class="fas fa-glass-champagne"></i>
+                            <h3>Cozy & Feminine Vibe</h3>
+                            <p>Our salon is exclusively tailored for females, featuring elegant interiors, ambient background music, and complementary tea/coffee to maximize your relaxation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Staff Section -->
+            <div class="team-section container">
+                <div class="text-center">
+                    <span class="section-badge">Meet the Experts</span>
+                    <h2 class="section-title">Our Signature Stylists</h2>
+                    <p class="section-subtitle">Our team consists of certified cosmetologists, hair artisans, and bridal specialists dedicated to their craft.</p>
+                </div>
+                
+                <div class="grid-3 team-grid">
+                    <!-- Stylist 1 -->
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="assets/images/bridal_makeup.png" alt="Saadia - Founder & Bridal Specialist">
+                        </div>
+                        <div class="team-info">
+                            <h3>Saadia</h3>
+                            <span class="team-role">Founder & Chief Bridal Makeup Artist</span>
+                            <p>With over 12 years of experience crafting breathtaking makeovers, Saadia is renowned for her radiant, timeless bridal makeup looks.</p>
+                        </div>
+                    </div>
+                    <!-- Stylist 2 -->
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="assets/images/hair_styling.png" alt="Zahra - Hair Artisan">
+                        </div>
+                        <div class="team-info">
+                            <h3>Zahra</h3>
+                            <span class="team-role">Senior Hair Stylist & Colorist</span>
+                            <p>Zahra is a certified hair technician specializing in precision cuts, keratin therapies, balayages, and advanced color transformations.</p>
+                        </div>
+                    </div>
+                    <!-- Stylist 3 -->
+                    <div class="team-card">
+                        <div class="team-img">
+                            <img src="assets/images/skincare_facial.png" alt="Amina - Skincare Therapist">
+                        </div>
+                        <div class="team-info">
+                            <h3>Amina</h3>
+                            <span class="team-role">Clinical Esthetician & Skin Consultant</span>
+                            <p>Amina specializes in custom dermatological facials, body waxes, skin-rejuvenating treatments, and organic chemical peels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SERVICES VIEW -->
+        <section id="services" class="view-section">
+            <div class="services-header-banner" style="background-image: linear-gradient(rgba(28, 26, 26, 0.4), rgba(28, 26, 26, 0.4)), url('assets/images/hero_banner.png');">
+                <div class="services-banner-content text-center">
+                    <span class="section-badge badge-white">Our Menu</span>
+                    <h1>Luxurious Beauty Services</h1>
+                    <p>Pamper yourself from head to toe with our extensive range of premium treatments.</p>
+                </div>
+            </div>
+
+            <div class="container services-container-tabs">
+                <!-- Filter Tabs -->
+                <div class="services-tabs" id="servicesTabs">
+                    <button class="tab-btn active" data-filter="all">All Services</button>
+                    <button class="tab-btn" data-filter="hair">Hair Styling & Cuts</button>
+                    <button class="tab-btn" data-filter="makeup">Bridal & Party Makeup</button>
+                    <button class="tab-btn" data-filter="skincare">Facials & Skincare</button>
+                    <button class="tab-btn" data-filter="nails">Nail Art & Mehndi</button>
+                </div>
+
+                <!-- Services Grid (Makeup Palette Case) -->
+                <div class="service-cards-grid" id="serviceCardsGrid">
+                    <!-- Central Mirror Display -->
+                    <div class="palette-mirror" id="paletteMirror">
+                        <!-- Initial placeholder state updated by JS -->
+                        <div class="mirror-content">
+                            <h3>Saadias Saloon</h3>
+                            <p>Select a shade to view service details</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 1: Hair Styling -->
+                    <div class="service-card" data-category="hair">
+                        <div class="service-card-img">
+                            <img src="assets/images/hair_styling.png" alt="Hair Styling">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Hair Styling</h3>
+                                <span class="price-tag">Rs. 2,500+</span>
+                            </div>
+                            <p class="service-desc">Elegant styling for any occasion: voluminous blowouts, beach waves, retro curls, or neat updos tailored to suit your features.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 45 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Hair Styling">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Hair Cutting -->
+                    <div class="service-card" data-category="hair">
+                        <div class="service-card-img">
+                            <img src="assets/images/hair_styling.png" alt="Hair Cutting">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Hair Cutting</h3>
+                                <span class="price-tag">Rs. 3,500+</span>
+                            </div>
+                            <p class="service-desc">Precision haircutting matching international trends. Includes a cleansing wash, scalp massage, custom trim, and professional blowout.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 60 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Hair Cutting">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Bridal Makeup -->
+                    <div class="service-card" data-category="makeup">
+                        <div class="service-card-img">
+                            <img src="assets/images/bridal_makeup.png" alt="Bridal Makeup">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Bridal Makeup</h3>
+                                <span class="price-tag">Rs. 45,000+</span>
+                            </div>
+                            <p class="service-desc">Signature bridal makeup including premium contouring, standard airbrushing, eyelash extensions, jewelry setting, and hair styling.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 180 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Bridal Makeup">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Party Makeup -->
+                    <div class="service-card" data-category="makeup">
+                        <div class="service-card-img">
+                            <img src="assets/images/bridal_makeup.png" alt="Party Makeup">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Party Makeup</h3>
+                                <span class="price-tag">Rs. 12,000+</span>
+                            </div>
+                            <p class="service-desc">Radiant party makeover with HD foundations, elegant eye styling, customized highlight, and premium falsies. Hair styling included.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 90 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Party Makeup">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: Facial & Skincare -->
+                    <div class="service-card" data-category="skincare">
+                        <div class="service-card-img">
+                            <img src="assets/images/skincare_facial.png" alt="Facial & Skincare">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Facial & Skincare</h3>
+                                <span class="price-tag">Rs. 6,000+</span>
+                            </div>
+                            <p class="service-desc">Deep cleaning glow facials, hydrafacials, skin tightening, and gold masks, custom formulated for dry, oily, or sensitive skin types.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 75 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Facial & Skincare">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 6: Hair Treatments -->
+                    <div class="service-card" data-category="hair">
+                        <div class="service-card-img">
+                            <img src="assets/images/hair_styling.png" alt="Hair Treatments">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Hair Treatments</h3>
+                                <span class="price-tag">Rs. 8,000+</span>
+                            </div>
+                            <p class="service-desc">Bespoke keratin conditioning, deep hot oil massages, hair protein masks, and spa therapies targeting frizzy, colored, or damaged hair.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 90 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Hair Treatments">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 7: Manicure & Pedicure -->
+                    <div class="service-card" data-category="nails">
+                        <div class="service-card-img">
+                            <img src="assets/images/manicures_nails.png" alt="Manicure & Pedicure">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Manicure & Pedicure</h3>
+                                <span class="price-tag">Rs. 4,500+</span>
+                            </div>
+                            <p class="service-desc">Soothing foot soak, cuticle trimming, exfoliating scrubs, hand/foot hot stone massages, and a premium nail polish coat.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 75 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Manicure & Pedicure">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 8: Waxing -->
+                    <div class="service-card" data-category="skincare">
+                        <div class="service-card-img">
+                            <img src="assets/images/skincare_facial.png" alt="Waxing">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Waxing Services</h3>
+                                <span class="price-tag">Rs. 1,500+</span>
+                            </div>
+                            <p class="service-desc">Sleek, pain-minimized waxing using premium hygienic honey or chocolate hot wax formulas for smooth, exfoliated skin.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 30 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Waxing">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 9: Nail Art -->
+                    <div class="service-card" data-category="nails">
+                        <div class="service-card-img">
+                            <img src="assets/images/manicures_nails.png" alt="Nail Art">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Nail Art</h3>
+                                <span class="price-tag">Rs. 2,000+</span>
+                            </div>
+                            <p class="service-desc">Express yourself with modern gel extensions, custom chrome finishes, hand-painted details, rhinestones, or classic French styling.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 45 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Nail Art">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 10: Mehndi Services -->
+                    <div class="service-card" data-category="nails">
+                        <div class="service-card-img">
+                            <img src="assets/images/manicures_nails.png" alt="Mehndi Services">
+                        </div>
+                        <div class="service-card-details">
+                            <div class="card-header-row">
+                                <h3>Mehndi Services</h3>
+                                <span class="price-tag">Rs. 1,000+</span>
+                            </div>
+                            <p class="service-desc">Exquisite organic henna designs: traditional bridal motifs, minimal arabic lines, floral prints, or contemporary tattoo designs.</p>
+                            <div class="card-footer-row">
+                                <span class="duration"><i class="far fa-clock"></i> 30 Mins</span>
+                                <a href="#book" class="btn btn-outline btn-sm book-shortcut" data-service="Mehndi Services">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <!-- Elegant FAQ Section inside Services -->
+            <div class="faq-section bg-cream">
+                <div class="container">
+                    <div class="text-center">
+                        <span class="section-badge">Got Questions?</span>
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <p class="section-subtitle">Here are the answers to the most common questions our clients ask us.</p>
+                    </div>
+
+                    <div class="faq-accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>Do I need to book an appointment in advance?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Yes, we strongly recommend booking appointments in advance, especially for weekends, wedding seasons, and evening hours to avoid wait times and guarantee your stylist's availability.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>What brands of makeup and skincare products do you use?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>For makeup, we use global premium cosmetics brands like MAC, Huda Beauty, Anastasia Beverly Hills, and Estée Lauder. For skincare, we trust professional esthetic lines like Dermalogica, Janssen Cosmetics, and Organic Face Shop.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>Can I reschedule or cancel my booking?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Absolutely! We understand plans change. You can reschedule or cancel your appointment free of charge up to 24 hours in advance by contacting us via phone or WhatsApp.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>Is Saadias Saloon open to male clients?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>No, Saadias Saloon is an exclusive female-only salon. We maintain a strictly private, comfortable, and secure environment dedicated entirely to female customers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. BOOK NOW VIEW -->
+        <section id="book" class="view-section">
+            <div class="booking-header-banner" style="background-image: linear-gradient(rgba(28, 26, 26, 0.45), rgba(28, 26, 26, 0.45)), url('assets/images/salon_interior.png');">
+                <div class="booking-banner-content text-center">
+                    <span class="section-badge badge-white">Reserve Your Slot</span>
+                    <h1>Online Appointment Booking</h1>
+                    <p>Let us help you look stunning. Reserve your custom experience at Saadias Saloon in under a minute.</p>
+                </div>
+            </div>
+
+            <div class="container booking-container-box">
+                <div class="grid-2">
+                    <div class="booking-form-wrapper">
+                        <span class="section-badge">Booking Form</span>
+                        <h2 class="section-title">Schedule Your Visit</h2>
+                        <p class="form-instructions">Fill in your preferred date, time, and service. Upon submission, you can directly send the details to our WhatsApp team for an instant confirmation.</p>
+                        
+                        <form id="appointmentForm" class="appointment-form">
+                            <div class="form-group">
+                                <label for="clientName">Full Name <span class="required">*</span></label>
+                                <input type="text" id="clientName" name="name" placeholder="E.g., Sarah Fatima" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="clientPhone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="clientPhone" name="phone" placeholder="E.g., +92 300 1234567" required>
+                            </div>
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="bookingService">Select Service <span class="required">*</span></label>
+                                    <select id="bookingService" name="service" required>
+                                        <option value="" disabled selected>-- Select a Service --</option>
+                                        <optgroup label="Hair Styling">
+                                            <option value="Hair Styling">Hair Styling - Rs. 2,500+</option>
+                                            <option value="Hair Cutting">Hair Cutting - Rs. 3,500+</option>
+                                            <option value="Hair Treatments">Hair Treatments - Rs. 8,000+</option>
+                                        </optgroup>
+                                        <optgroup label="Makeup">
+                                            <option value="Bridal Makeup">Bridal Makeup - Rs. 45,000+</option>
+                                            <option value="Party Makeup">Party Makeup - Rs. 12,000+</option>
+                                        </optgroup>
+                                        <optgroup label="Skincare">
+                                            <option value="Facial & Skincare">Facial & Skincare - Rs. 6,000+</option>
+                                            <option value="Waxing Services">Waxing Services - Rs. 1,500+</option>
+                                        </optgroup>
+                                        <optgroup label="Nails & Henna">
+                                            <option value="Manicure & Pedicure">Manicure & Pedicure - Rs. 4,500+</option>
+                                            <option value="Nail Art">Nail Art - Rs. 2,000+</option>
+                                            <option value="Mehndi Services">Mehndi Services - Rs. 1,000+</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group-row grid-2">
+                                <div class="form-group">
+                                    <label for="bookingDate">Preferred Date <span class="required">*</span></label>
+                                    <input type="date" id="bookingDate" name="date" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookingTime">Preferred Time <span class="required">*</span></label>
+                                    <input type="time" id="bookingTime" name="time" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="specialNotes">Special Requests (Optional)</label>
+                                <textarea id="specialNotes" name="notes" rows="4" placeholder="Any specific requirements, allergies, or stylist preferences?"></textarea>
+                            </div>
+                            
+                            <div class="booking-actions">
+                                <button type="submit" class="btn btn-primary btn-block">Confirm Appointment <i class="fas fa-check"></i></button>
+                                <button type="button" id="whatsappSubmitBtn" class="btn btn-whatsapp btn-block">Book Directly via WhatsApp <i class="fab fa-whatsapp"></i></button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="booking-info-sidebar bg-cream">
+                        <h3>Salon Booking Guidelines</h3>
+                        <div class="sidebar-guidelines">
+                            <div class="guide-item">
+                                <div class="guide-icon"><i class="fas fa-clock"></i></div>
+                                <div class="guide-text">
+                                    <h4>Punctuality</h4>
+                                    <p>Please arrive 10 minutes prior to your schedule. Late arrivals exceeding 15 minutes may require rescheduling.</p>
+                                </div>
+                            </div>
+                            <div class="guide-item">
+                                <div class="guide-icon"><i class="fas fa-shield-virus"></i></div>
+                                <div class="guide-text">
+                                    <h4>Safety Protocols</h4>
+                                    <p>To maintain absolute safety, please do not bring extra guests or children unless they are receiving a service.</p>
+                                </div>
+                            </div>
+                            <div class="guide-item">
+                                <div class="guide-icon"><i class="fas fa-coins"></i></div>
+                                <div class="guide-text">
+                                    <h4>Deposit Policy</h4>
+                                    <p>A minor advance deposit (50%) may be requested to confirm high-value bridal and party makeup bookings during peak wedding months.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quick-contact-box">
+                            <h4>Need Immediate Booking?</h4>
+                            <p>Call or WhatsApp our helpline directly for express bookings and consultations.</p>
+                            <a href="tel:+923001234567" class="quick-call-link"><i class="fas fa-phone-alt"></i> +92 300 1234567</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CONTACT US VIEW -->
+        <section id="contact" class="view-section">
+            <div class="contact-header-banner" style="background-image: linear-gradient(rgba(28, 26, 26, 0.45), rgba(28, 26, 26, 0.45)), url('assets/images/hero_banner.png');">
+                <div class="contact-banner-content text-center">
+                    <span class="section-badge badge-white">Get In Touch</span>
+                    <h1>Contact Saadias Saloon</h1>
+                    <p>We would love to hear from you. Reach out with questions, concerns, or location queries.</p>
+                </div>
+            </div>
+
+            <div class="container contact-container-box">
+                <div class="grid-2">
+                    <!-- Contact Info & Hours -->
+                    <div class="contact-info-col">
+                        <span class="section-badge">Contact Details</span>
+                        <h2 class="section-title">Visit or Reach Out</h2>
+                        <p class="contact-lead-desc">Saadias Saloon is located in the heart of Lahore. Visit us for a luxury pampering session or call/write to our team.</p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-detail-card">
+                                <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="detail-text">
+                                    <h4>Our Address</h4>
+                                    <p>123 Elegance Boulevard, Gulberg III, Lahore, Pakistan</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-card">
+                                <div class="detail-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div class="detail-text">
+                                    <h4>Call Us</h4>
+                                    <p><a href="tel:+923001234567">+92 300 1234567</a> / <a href="tel:04235778899">042-35778899</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-card">
+                                <div class="detail-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="detail-text">
+                                    <h4>Email Us</h4>
+                                    <p><a href="mailto:info@saadiassaloon.com">info@saadiassaloon.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="business-hours-box bg-cream">
+                            <h3><i class="far fa-clock"></i> Business Hours</h3>
+                            <ul class="hours-list">
+                                <li><span>Monday</span> <span class="hours">10:00 AM - 08:00 PM</span></li>
+                                <li><span>Tuesday</span> <span class="hours">10:00 AM - 08:00 PM</span></li>
+                                <li><span>Wednesday</span> <span class="hours">10:00 AM - 08:00 PM</span></li>
+                                <li><span>Thursday</span> <span class="hours">10:00 AM - 08:00 PM</span></li>
+                                <li><span>Friday</span> <span class="hours">10:00 AM - 09:00 PM</span></li>
+                                <li><span>Saturday</span> <span class="hours">10:00 AM - 09:00 PM</span></li>
+                                <li><span>Sunday</span> <span class="hours">11:00 AM - 07:00 PM</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form & Map -->
+                    <div class="contact-form-col">
+                        <span class="section-badge">Feedback Form</span>
+                        <h2 class="section-title">Send a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="contactName">Name <span class="required">*</span></label>
+                                <input type="text" id="contactName" placeholder="E.g., Sarah Fatima" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email <span class="required">*</span></label>
+                                <input type="email" id="contactEmail" placeholder="E.g., sarah@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject</label>
+                                <input type="text" id="contactSubject" placeholder="E.g., Bridal packages inquiry">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message <span class="required">*</span></label>
+                                <textarea id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        </form>
+
+                        <!-- Google Maps Mock Card -->
+                        <div class="map-wrapper animate-on-scroll">
+                            <div class="mock-map">
+                                <div class="map-grid-bg"></div>
+                                <div class="map-marker">
+                                    <div class="pin"></div>
+                                    <div class="pulse"></div>
+                                </div>
+                                <div class="map-details-card">
+                                    <h4>Saadias Saloon</h4>
+                                    <p>Gulberg III, Lahore</p>
+                                    <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">Get Directions <i class="fas fa-map-marked-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 BRANCHES SECTION -->
+            <div class="branches-section container">
+                <div class="text-center">
+                    <span class="section-badge">Our Locations</span>
+                    <h2 class="section-title">3 Branches Across Lahore</h2>
+                    <p class="section-subtitle">Visit any of our premium salon branches for the full Saadias experience. Each branch offers complete services in a private, luxurious environment.</p>
+                </div>
+
+                <div class="branches-grid">
+                    <!-- Branch 1: Gulberg -->
+                    <div class="branch-card animate-on-scroll">
+                        <div class="branch-map-preview">
+                            <div class="branch-map-bg branch-1-bg"></div>
+                            <div class="branch-pin-dot"></div>
+                            <span class="branch-badge">Main Branch</span>
+                        </div>
+                        <div class="branch-info">
+                            <div class="branch-number">01</div>
+                            <h3 class="branch-name">Gulberg III</h3>
+                            <p class="branch-address"><i class="fas fa-map-marker-alt"></i> 47-B, Firdaus Market, Main Boulevard Gulberg III, Lahore</p>
+                            <p class="branch-coords"><i class="fas fa-crosshairs"></i> 31.5089° N, 74.3437° E</p>
+                            <div class="branch-meta">
+                                <span><i class="fas fa-clock"></i> Mon–Sun: 10 AM – 9 PM</span>
+                                <span><i class="fas fa-phone-alt"></i> +92 300 111 2233</span>
+                            </div>
+                            <a href="https://maps.google.com/?q=Firdaus+Market+Gulberg+III+Lahore" target="_blank" rel="noopener" class="btn btn-secondary btn-sm branch-directions-btn">
+                                <i class="fas fa-map-marked-alt"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Branch 2: DHA -->
+                    <div class="branch-card animate-on-scroll">
+                        <div class="branch-map-preview">
+                            <div class="branch-map-bg branch-2-bg"></div>
+                            <div class="branch-pin-dot"></div>
+                            <span class="branch-badge">DHA Branch</span>
+                        </div>
+                        <div class="branch-info">
+                            <div class="branch-number">02</div>
+                            <h3 class="branch-name">DHA Phase 5</h3>
+                            <p class="branch-address"><i class="fas fa-map-marker-alt"></i> 22-C, Khayaban-e-Badar, DHA Phase 5, Lahore</p>
+                            <p class="branch-coords"><i class="fas fa-crosshairs"></i> 31.4776° N, 74.4042° E</p>
+                            <div class="branch-meta">
+                                <span><i class="fas fa-clock"></i> Mon–Sun: 10 AM – 9 PM</span>
+                                <span><i class="fas fa-phone-alt"></i> +92 321 444 5566</span>
+                            </div>
+                            <a href="https://maps.google.com/?q=Khayaban+e+Badar+DHA+Phase+5+Lahore" target="_blank" rel="noopener" class="btn btn-secondary btn-sm branch-directions-btn">
+                                <i class="fas fa-map-marked-alt"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Branch 3: Johar Town -->
+                    <div class="branch-card animate-on-scroll">
+                        <div class="branch-map-preview">
+                            <div class="branch-map-bg branch-3-bg"></div>
+                            <div class="branch-pin-dot"></div>
+                            <span class="branch-badge">New Branch</span>
+                        </div>
+                        <div class="branch-info">
+                            <div class="branch-number">03</div>
+                            <h3 class="branch-name">Johar Town</h3>
+                            <p class="branch-address"><i class="fas fa-map-marker-alt"></i> Block H, Near Emporium Mall, Johar Town, Lahore</p>
+                            <p class="branch-coords"><i class="fas fa-crosshairs"></i> 31.4697° N, 74.2807° E</p>
+                            <div class="branch-meta">
+                                <span><i class="fas fa-clock"></i> Mon–Sun: 10 AM – 8 PM</span>
+                                <span><i class="fas fa-phone-alt"></i> +92 042 3557 8899</span>
+                            </div>
+                            <a href="https://maps.google.com/?q=Johar+Town+Emporium+Mall+Lahore" target="_blank" rel="noopener" class="btn btn-secondary btn-sm branch-directions-btn">
+                                <i class="fas fa-map-marked-alt"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. PRODUCTS VIEW -->
+        <section id="products" class="view-section">
+
+            <!-- Products Header Banner -->
+            <div class="products-header-banner" style="background-image: linear-gradient(rgba(28,26,26,0.58), rgba(28,26,26,0.58)), url('assets/images/bridal_makeup.png');">
+
+                <!-- Floating Salon Decorative Icons -->
+                <div class="banner-deco-icons">
+                    <span class="deco-icon deco-1"><i class="fas fa-cut"></i></span>
+                    <span class="deco-icon deco-2"><i class="fas fa-magic"></i></span>
+                    <span class="deco-icon deco-3"><i class="fas fa-spa"></i></span>
+                    <span class="deco-icon deco-4"><i class="fas fa-star"></i></span>
+                    <span class="deco-icon deco-5"><i class="fas fa-gem"></i></span>
+                    <span class="deco-icon deco-6"><i class="fas fa-feather-alt"></i></span>
+                </div>
+
+                <!-- Glowing Orbs -->
+                <div class="banner-orb orb-left"></div>
+                <div class="banner-orb orb-right"></div>
+
+                <!-- Main Content -->
+                <div class="products-banner-content text-center">
+                    <div class="products-banner-top-row">
+                        <span class="banner-line"></span>
+                        <span class="section-badge badge-white"><i class="fas fa-shopping-bag"></i> Exclusive Collection</span>
+                        <span class="banner-line"></span>
+                    </div>
+                    <h1>Saadias Beauty <span class="banner-gold-word">Products</span></h1>
+                    <p>Premium salon-grade beauty products handpicked by our expert stylists — available exclusively at Saadias Saloon.</p>
+                    <div class="banner-stats-row">
+                        <div class="banner-stat">
+                            <span class="stat-num">20+</span>
+                            <span class="stat-label">Products</span>
+                        </div>
+                        <span class="stat-divider">✦</span>
+                        <div class="banner-stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Premium Quality</span>
+                        </div>
+                        <span class="stat-divider">✦</span>
+                        <div class="banner-stat">
+                            <span class="stat-num">3</span>
+                            <span class="stat-label">Branch Locations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="container products-container">
+
+                <!-- Filter Tabs -->
+                <div class="products-filter-tabs">
+                    <button class="prod-tab-btn active" data-filter="all">All Products</button>
+                    <button class="prod-tab-btn" data-filter="hair">Hair Care</button>
+                    <button class="prod-tab-btn" data-filter="skin">Skin Care</button>
+                    <button class="prod-tab-btn" data-filter="makeup">Makeup</button>
+                    <button class="prod-tab-btn" data-filter="nails">Nails</button>
+                </div>
+
+                <div class="products-grid" id="productsGrid">
+
+                    <!-- Product 1: Hair Serum -->
+                    <div class="product-card" data-prod-category="hair">
+                        <div class="product-img-wrap">
+                            <img src="assets/images/product_hair_serum.png" alt="Saadias Luxury Hair Serum">
+                            <div class="product-badge">Bestseller</div>
+                            <div class="product-overlay">
+                                <a href="#book" class="btn btn-primary btn-sm">Order at Salon</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category-tag">Hair Care</span>
+                            <h3 class="product-name">Luxury Hair Serum</h3>
+                            <p class="product-desc">A silky, frizz-fighting serum enriched with argan oil and keratin proteins. Adds brilliant shine and softness to all hair types.</p>
+                            <div class="product-footer">
+                                <span class="product-price">Rs. 2,800</span>
+                                <div class="product-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(48)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Glow Face Cream -->
+                    <div class="product-card" data-prod-category="skin">
+                        <div class="product-img-wrap">
+                            <img src="assets/images/product_glow_cream.png" alt="Saadias Rose Glow Face Cream">
+                            <div class="product-badge badge-new">New</div>
+                            <div class="product-overlay">
+                                <a href="#book" class="btn btn-primary btn-sm">Order at Salon</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category-tag">Skin Care</span>
+                            <h3 class="product-name">Rose Glow Face Cream</h3>
+                            <p class="product-desc">A lightweight yet deeply nourishing face cream with rose hip extract and hyaluronic acid. Brightens skin and locks in moisture for 24 hours.</p>
+                            <div class="product-footer">
+                                <span class="product-price">Rs. 3,500</span>
+                                <div class="product-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span>(31)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: Lip Kit -->
+                    <div class="product-card" data-prod-category="makeup">
+                        <div class="product-img-wrap">
+                            <img src="assets/images/product_lip_kit.png" alt="Saadias Matte Lip Kit">
+                            <div class="product-badge">Top Rated</div>
+                            <div class="product-overlay">
+                                <a href="#book" class="btn btn-primary btn-sm">Order at Salon</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category-tag">Makeup</span>
+                            <h3 class="product-name">Signature Matte Lip Kit</h3>
+                            <p class="product-desc">4 stunning matte shades — Rose Nude, Berry Wine, Coral Sunset, and Classic Red. Long-lasting formula with a velvety smooth finish.</p>
+                            <div class="product-footer">
+                                <span class="product-price">Rs. 4,200</span>
+                                <div class="product-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(62)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Nail Kit -->
+                    <div class="product-card" data-prod-category="nails">
+                        <div class="product-img-wrap">
+                            <img src="assets/images/product_nail_kit.png" alt="Saadias Gel Nail Art Kit">
+                            <div class="product-badge badge-sale">Sale</div>
+                            <div class="product-overlay">
+                                <a href="#book" class="btn btn-primary btn-sm">Order at Salon</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category-tag">Nails</span>
+                            <h3 class="product-name">Gel Nail Art Kit</h3>
+                            <p class="product-desc">Complete gel nail set with 6 vibrant shades, nail file, cuticle oil, and UV-cured gel base coat. Salon-quality nails from the comfort of home.</p>
+                            <div class="product-footer">
+                                <div class="product-price-wrap">
+                                    <span class="product-price">Rs. 3,200</span>
+                                    <span class="product-price-old">Rs. 4,500</span>
+                                </div>
+                                <div class="product-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span>(27)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Bridal Makeup Kit -->
+                    <div class="product-card product-card-wide" data-prod-category="makeup">
+                        <div class="product-img-wrap">
+                            <img src="assets/images/product_bridal_kit.png" alt="Saadias Bridal Makeup Kit">
+                            <div class="product-badge">Limited Edition</div>
+                            <div class="product-overlay">
+                                <a href="#book" class="btn btn-primary btn-sm">Order at Salon</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category-tag">Bridal Makeup</span>
+                            <h3 class="product-name">Saadias Bridal Glam Kit</h3>
+                            <p class="product-desc">The ultimate bridal companion — includes full-coverage HD foundation, contouring palette, eyeshadow palette, setting spray, 3 luxury lip shades, and 5 professional brushes. Everything you need for your perfect bridal glow.</p>
+                            <div class="product-footer">
+                                <span class="product-price">Rs. 18,500</span>
+                                <div class="product-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(94)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /products-grid -->
+
+                <!-- CTA Strip -->
+                <div class="products-cta-strip">
+                    <div class="products-cta-inner">
+                        <div>
+                            <h3>Can't find what you're looking for?</h3>
+                            <p>Visit any of our 3 branches — our team will recommend the perfect product for your skin and hair type.</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg">Find a Branch <i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- MOBILE BOTTOM NAV BAR -->
+    <nav class="mobile-bottom-nav" id="mobileBottomNav" role="navigation" aria-label="Mobile bottom navigation">
+        <a href="#home" class="bottom-nav-item active" id="bnav-home" aria-label="Home">
+            <div class="bottom-nav-icon">
+                <i class="fas fa-home"></i>
+            </div>
+            <span class="bottom-nav-label">Home</span>
+        </a>
+        <a href="#services" class="bottom-nav-item" id="bnav-services" aria-label="Services">
+            <div class="bottom-nav-icon">
+                <i class="fas fa-magic"></i>
+            </div>
+            <span class="bottom-nav-label">Services</span>
+        </a>
+        <a href="#book" class="bottom-nav-item bottom-nav-center-btn" id="bnav-book" aria-label="Book Now">
+            <div class="bottom-nav-icon center-icon">
+                <i class="fas fa-calendar-check"></i>
+            </div>
+            <span class="bottom-nav-label">Book</span>
+        </a>
+        <a href="#products" class="bottom-nav-item" id="bnav-products" aria-label="Products">
+            <div class="bottom-nav-icon">
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+            <span class="bottom-nav-label">Products</span>
+        </a>
+        <a href="#contact" class="bottom-nav-item" id="bnav-contact" aria-label="Contact">
+            <div class="bottom-nav-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <span class="bottom-nav-label">Contact</span>
+        </a>
+    </nav>
+
+    <!-- FLOATING WHATSAPP CHAT WIDGET -->
+    <div class="whatsapp-widget-container" id="whatsappWidget">
+        <button class="whatsapp-widget-trigger" id="whatsappWidgetTrigger" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="badge-pulse"></span>
+        </button>
+        <div class="whatsapp-chat-box" id="whatsappChatBox">
+            <div class="chat-header">
+                <div class="salon-avatar">
+                    <img src="assets/images/bridal_makeup.png" alt="Saadias Staff Avatar">
+                    <span class="online-indicator"></span>
+                </div>
+                <div class="chat-title">
+                    <h4>Saadias Saloon</h4>
+                    <span>Online (Replies instantly)</span>
+                </div>
+                <button class="chat-close" id="chatCloseBtn">&times;</button>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message message-received">
+                    <p>Hi there! 🌸 Welcome to Saadias Saloon. How can we help you look spectacular today? Ask us about our bridal deals or book an appointment!</p>
+                    <span class="message-time">Just now</span>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <a href="https://wa.me/923001234567?text=Hi%20Saadias%20Saloon!%20I'd%20like%20to%20inquire%20about%20your%20beauty%20services." target="_blank" rel="noopener" class="chat-send-btn">
+                    <span>Start Chat on WhatsApp</span>
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOOKING SUCCESS MODAL -->
+    <div class="modal-overlay" id="successModalOverlay">
+        <div class="modal-card">
+            <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+            <h2>Appointment Requested!</h2>
+            <p>Thank you, <strong id="successClientName">Client</strong>. Your appointment request for <strong id="successServiceName">Service</strong> has been received.</p>
+            <div class="modal-appointment-summary">
+                <p><strong>Date:</strong> <span id="successDate">Date</span></p>
+                <p><strong>Time:</strong> <span id="successTime">Time</span></p>
+            </div>
+            <p class="whatsapp-promo">Click the button below to send this booking summary directly to our WhatsApp number for instant confirmation!</p>
+            <a href="#" id="successWhatsappBtn" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block">Confirm via WhatsApp <i class="fab fa-whatsapp"></i></a>
+            <button class="btn btn-outline btn-block" id="successCloseBtn">Done & Close</button>
+        </div>
+    </div>
+
+    <!-- MAIN FOOTER -->
+    <footer class="main-footer bg-charcoal">
+        <div class="container footer-grid">
+            <!-- Brand Col -->
+            <div class="footer-col brand-col">
+                <a href="#home" class="logo logo-footer" id="logoLinkFooter">
+                    <img src="assets/images/logo.jpg" alt="Saadias Saloon Logo" class="logo-img logo-img-footer">
+                </a>
+                <p class="footer-desc">A premium luxury parlour and hair boutique dedicated to empowering women through elegant makeovers, hair artisanry, and clinical-grade skin therapies.</p>
+                <div class="social-links-footer">
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <!-- Links Col -->
+            <div class="footer-col links-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#book">Book Appointment</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Services Quick Col -->
+            <div class="footer-col services-quick-col">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#services" onclick="window.appRouter.setServiceFilter('makeup')">Bridal Makeover</a></li>
+                    <li><a href="#services" onclick="window.appRouter.setServiceFilter('hair')">Precision Haircut</a></li>
+                    <li><a href="#services" onclick="window.appRouter.setServiceFilter('skincare')">Hydrafacials</a></li>
+                    <li><a href="#services" onclick="window.appRouter.setServiceFilter('nails')">Creative Nail Art</a></li>
+                    <li><a href="#services" onclick="window.appRouter.setServiceFilter('nails')">Organic Mehndi</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Quick Col -->
+            <div class="footer-col contact-quick-col">
+                <h3>Connect With Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Elegance Boulevard, Gulberg III, Lahore, Pakistan</p>
+                <p><i class="fas fa-phone-alt"></i> +92 300 1234567</p>
+                <p><i class="fas fa-envelope"></i> info@saadiassaloon.com</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Saadias Saloon. All Rights Reserved. Designed for elegance and beauty.</p>
+                <p>Private & Secure Female-Only Environment</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
